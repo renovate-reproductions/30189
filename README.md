@@ -8,6 +8,8 @@ So there are two nested submodules recursivly.
 
 You can clone the whole repo tree with `git clone --recursive ..` or update the submodules with `git submodule update --recursive`.
 
+The `Dockerfile` in this repository is just for demonstrating, that the CI is failing. It is the same for a crate from "sub-submodules" in a rust (Cargo) repo.
+
 # Current behavior
 
 The renovate bot only clones the repo and pulls the first level of submodules but skips the nested submodule.
