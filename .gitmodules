@@ -1,0 +1,3 @@
+[submodule "renovate-bot-reproduction-recursive-submodules-sub1"]
+	path = renovate-bot-reproduction-recursive-submodules-sub1
+	url = ../renovate-bot-reproduction-recursive-submodules-sub1
