@@ -2,13 +2,11 @@
 
 This project has a git submodule to a repo called `renovate-bot-reproduction-recursive-submodules-sub1`.
 
-And this repo has again a submpdule to a repo called `renovate-bot-reproduction-recursive-submodules-sub2`.
+And this repo has again a submodule to a repo called `renovate-bot-reproduction-recursive-submodules-sub2`.
 
-So there are two nested submodules recursivly.
+So there are two nested submodules recursively.
 
-You can clone the whole repo tree with `git clone --recursive ..` or update the submodules with `git submodule update --recursive`.
-
-The `Dockerfile` in this repository is just for demonstrating, that the CI is failing. It is the same for a crate from "sub-submodules" in a rust (Cargo) repo.
+You can clone the whole repo tree with `git clone --recursive ...` or update the submodules with `git submodule update --recursive`.
 
 # Current behavior
 
@@ -16,8 +14,8 @@ The renovate bot only clones the repo and pulls the first level of submodules bu
 
 # Expected behavior
 
-The renovate bot should clone the repo recursivly with all (nested) submodules.
+The renovate bot should clone the repo recursively with all (nested) submodules.
 
 # Link to the Renovate issue or Discussion
 
-TBA
+https://github.com/renovatebot/renovate/discussions/30189
