@@ -1,0 +1,7 @@
+[package]
+name = "renovate-bot-reproduction-recursive-submodules"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+renovate-bot-reproduction-recursive-submodules-sub2 = { path = "../renovate-bot-reproduction-recursive-submodules-sub1/renovate-bot-reproduction-recursive-submodules-sub2" }
