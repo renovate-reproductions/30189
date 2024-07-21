@@ -5,4 +5,4 @@ edition = "2021"
 
 [dependencies]
 renovate-bot-reproduction-recursive-submodules-sub2 = { path = "../renovate-bot-reproduction-recursive-submodules-sub1/renovate-bot-reproduction-recursive-submodules-sub2" }
-toml = "0.7"
+toml = "0.8"
